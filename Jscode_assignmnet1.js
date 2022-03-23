@@ -1,7 +1,7 @@
-function answer(){               // function for gthe answer//
+function answer(){               // function for the answer//
     let n1=parseInt(document.getElementById('n1').value); //taking the first input from user//
     let n2=parseInt(document.getElementById('n2').value); // taking the second in put from user//
-    let opr=document.getElementById('operators').value;   //selecting the operator//
+    let opr=document.getElementById('operators').value;   //selecting the operator and storing the value in opr//
     function sum(a1, a2)    //function for the addition operation//
         {
             this.n1=a1;
