@@ -43,7 +43,7 @@ function answer(){               // function for the answer//
     }
     if(opr === '/')          //checking the operation if / or not//
     {
-        if(n2 == 0){
+        if(n2 === 0){
            alert("Cannot divide by 0"); //error handling alert //
         }
     let res=div(n1,n2);
