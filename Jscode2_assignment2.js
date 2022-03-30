@@ -3,6 +3,7 @@ function answer(){               // function for the answer//
     var number2=parseInt(document.getElementById('number2').value); // taking the second in put from user using var type//
     let opr=document.getElementById('operators').value;   //selecting the operator and storing the value in opr//
     var error = document.getElementById("error");
+    error.style.color="red";
     function sum(a1, a2)    //function for the addition operation//
         {
             this.number1=a1;
